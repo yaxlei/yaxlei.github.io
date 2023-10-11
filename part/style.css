@@ -226,5 +226,15 @@ z-index: -2;
     background-position: center; 
     margin-top: 400px;
 }
+#webring{
+   position:absolute;
+   bottom: 0px;
+   left: 0px;
+   padding: 30px;
+}
+#webring-link{
+   color: white;
+   font-family: futura;
+}
 
 }
