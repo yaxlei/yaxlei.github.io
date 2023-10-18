@@ -1,3 +1,21 @@
 html{
 background-color: bisque;
+
+.box{
+position:absolute;
+/*height: 250px;
+width: 250px;*/
+height:38vh;
+width: 38vw;
+
+/*background-color: cornflowerblue;*/
+
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 }
