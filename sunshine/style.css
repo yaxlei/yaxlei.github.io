@@ -80,7 +80,7 @@ body, html {
 
   .button {
     position: absolute;
-    left: calc(50vw - 16vh);
+    left: calc(50vw - 17.5vh);
     top: 80vh;
     padding: 20px 30px;
     font-family: "Gotham", sans-serif;
