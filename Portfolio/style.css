@@ -1,0 +1,483 @@
+body {
+    margin: 0;
+    max-height: 100vh;
+}
+@import url('https://fonts.cdnfonts.com/css/spacetype');
+
+#chatBox{
+  position:absolute;
+  height:25vh;
+  width: 100vw;
+  bottom: 0vh;
+  background-color: rgb(100, 149, 237,.5);
+  text-align: center;
+  color:white;
+  font-family: 'SpaceType', sans-serif;
+  z-index:1;
+
+}
+
+#chatText{
+    margin-left:10vw;
+    margin-right:10vw;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+}
+
+#option1 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 10vw;
+    background-image: url('berb.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#option2 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 40vw;
+    background-image: url('pig.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#option3 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 70vw;
+    background-image: url('book.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#ch {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    top: 65vh;
+    background-image: url('star.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#ch2{
+  position:absolute;
+  bottom:35vh;
+}
+
+#ch3{
+  position:absolute;
+  bottom:35vh;
+ 
+}
+
+
+#charC {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+   
+
+}
+
+#charC2 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+
+#charC3 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+
+
+#option1:hover + #ch #charC {
+  opacity: 1;
+}
+
+#option1:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+#option2:hover + #ch2 #charC2 {
+  opacity: 1;
+}
+#option2:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+#option3:hover + #ch3 #charC3 {
+    opacity: 1;
+}
+#option3:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+#option4 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 10vw;
+    background-image: url('web.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#option5 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 40vw;
+    background-image: url('pen.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#option6 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 70vw;
+    background-image: url('clock.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#ch4 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    top: 65vh;
+    background-image: url('star.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#ch5{
+  position:absolute;
+  bottom:35vh;
+}
+
+#ch6{
+  position:absolute;
+  bottom:35vh;
+ 
+}
+
+
+#charC4 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+
+#charC5 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+
+#charC6 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+
+
+
+#option4:hover + #ch4 #charC4 {
+    opacity: 1;
+  }
+  #option4:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+  
+  #option5:hover + #ch5 #charC5 {
+    opacity: 1;
+  }
+  #option5:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+  #option6:hover + #ch6 #charC6 {
+      opacity: 1;
+  }
+  #option6:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+  
+
+  #option7 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 10vw;
+    background-image: url('rab.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#option8 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 40vw;
+    background-image: url('sun.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#option9 {
+    position: absolute;
+    height: 25vh;
+    width: 15vw;
+    top: 20vh;
+    left: 70vw;
+    background-image: url('flower.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+#ch7 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    top: 65vh;
+    background-image: url('star.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+#ch8{
+  position:absolute;
+  bottom:35vh;
+}
+
+#ch9{
+  position:absolute;
+  bottom:35vh;
+ 
+}
+
+
+#charC7 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+
+#charC8 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+
+#charC9 {
+    position: absolute;
+    height: 35vh;
+    width: 13vw;
+    background-image: url('star1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 2;
+}
+
+
+
+#option7:hover + #ch7 #charC7 {
+    opacity: 1;
+  }
+  #option7:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+  
+  #option8:hover + #ch8 #charC8 {
+    opacity: 1;
+  }
+  #option8:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+  #option9:hover + #ch9 #charC9 {
+      opacity: 1;
+  }
+  #option9:hover{
+    animation-name: moveO 1.5s infinite alternate; 
+    -webkit-animation: moveO 1.5s infinite alternate;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+  
+#back{
+    position: absolute;
+    height: 5vh;
+    width: 5vw;
+    margin: 3vh;
+    z-index: 2;
+    
+}
+
+#next{
+    position: absolute;
+    height: 5vh;
+    width: 5vw;
+    margin: 3vh;
+    left: 90vw;
+    z-index: 2;
+}
+@import url('https://fonts.cdnfonts.com/css/spacetype');
+a{
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+    font-family: 'SpaceType', sans-serif; 
+    transition: ease-in-out .5s;
+}
+
+a:hover{
+    color:cornflowerblue;
+    cursor: pointer;
+}
+
+.backAni{
+    height: 100vh;
+      background-size: cover;
+      animation: move;
+      animation-name: move 4s infinite forwards; 
+       -webkit-animation: move 4s infinite forwards;
+        animation-timing-function: ease-in-out;
+        position:relative;
+        z-index: 0;
+
+  }
+  #ani1{
+    background-image: url('back1.jpg');
+  }
+
+  #ani2{
+    background-image: url('back.png');
+  }
+
+  #ani3{
+    background-image: url('back3.jpg');
+  }
+
+  @-webkit-keyframes move {
+0% { top: 0vh; left: 0vw; }
+25% { top: 0vh; left: 1vw; } /* Move right */
+50% { top: 1vh; left: 1vw; } /* Move down */
+75% { top: 1vh; left: 0vw; } /* Move left */
+100% { top: 0vh; left: 0vw; } /* Move up */
+}
+@keyframes move {
+0% { top: 0vh; left: 0vw; }
+25% { top: 0vh; left: 1vw; } /* Move right */
+50% { top: 1vh; left: 1vw; } /* Move down */
+75% { top: 1vh; left: 0vw; } /* Move left */
+100% { top: 0vh; left: 0vw; } /* Move up */
+}
+
+.section{
+    position:absolute;
+    right:50vw;
+    font-size: 5vh;
+    text-align: center;
+    color: white;
+    font-family: 'SpaceType', sans-serif; 
+    margin-top: 1vh;
+    z-index: 2;
+}
+
+@keyframes moveO{
+    from {top: 20vh;}
+    to {top:30vh;}
+}
+@-webkit-keyframes moveO {
+from {top: 20vh;}
+to {top: 30vh;}
+}
+

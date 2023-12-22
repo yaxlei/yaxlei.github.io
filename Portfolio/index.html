@@ -1,0 +1,56 @@
+<head>
+    <link href="https://fonts.cdnfonts.com/css/spacetype" rel="stylesheet">
+                       
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/spacetype');
+
+        body{
+            background-image: url('open.jpg');
+            background-position: center;
+            max-height: 100vh;
+        
+        }
+        p{
+            font-size: 15vh;
+            text-align: center;
+            color: white;
+            font-family: 'SpaceType', sans-serif; 
+            margin-top: 10vh; 
+            animation-name: move 3s infinite alternate; 
+           -webkit-animation: move 3s infinite alternate;
+            animation-timing-function: ease-in-out;
+            position:relative;                                   
+        }
+        @keyframes move{
+            from {top: 0vh;}
+            to {top:30vh;}
+        }
+        @-webkit-keyframes move {
+       from {top: 0vh;}
+       to {top: 30vh;}
+        }
+        a{
+            position:relative;
+            top: 20vh;
+            font-size: 5vh;
+            text-align: center;
+            color: white;
+            font-family: 'SpaceType', sans-serif; 
+            margin-left: 20vw;
+            transition: ease-in-out .5s;
+        }
+
+    a:hover{
+        color:cornflowerblue;
+        cursor: pointer;
+    }
+
+
+    </style>
+
+</head>
+
+<body>
+<p> Yaxlei's Portfolio</p>
+<a href="s1.html">Enter</a> <a href="read.html">Don't Enter</a>
+</body>
